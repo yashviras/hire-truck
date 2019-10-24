@@ -20,8 +20,6 @@ require ('Nav.php');
                     </div>
                 </section>
 
-
-
                 <div class="container" style=" margin-top:10px; webkit-box-shadow: 1px 0px 17px 7px rgba(0,0,0,0.75);-moz-box-shadow: 1px 0px 17px 7px rgba(0,0,0,0.75);	box-shadow: 1px 0px 17px 7px rgba(0,0,0,0.75);">
 
                             <div class="container" style="padding-top:5%;"><br>
@@ -46,27 +44,35 @@ require ('Nav.php');
                                     </div>
                                 </div>
                                 <br><br>
-                              <div class="row"style="padding-bottom:50px;">
-                                        <div  class="col-md-6">
+                              
+                                <div class="row"style="padding-bottom:50px;">
+                                
+                                    <div  class="col-md-6">
                                             <label>Enter Your Current Location:</label>
                                             <textarea  name="CARRIER_address" class="form-control" row="5" placeholder="Enter your Address" maxlength="200" title="Max Length is 200 Minimum 50" required> </textarea>
-                                        </div>
-                                        <div class="col-md-6">
+                                    
+                                    </div>
+                                    
+                                    <div class="col-md-6">
                                             <div class="row"style="padding-top:10%;">
                                              <div class="col">
                                             <button type="submit" class="btn btn-success btn-block" id="Hide" >Submit</button>
-                                          </div>
+                                    
+                                     </div>
 
                                             <div class="col">
                                             <button type="reset" class="btn btn-Primary btn-block">Reset</button>
                                             </div>
-                                          </div>
+                                     
                                         </div>
+                                        
+                                    </div>
 
                               </div>
 
                           </div>
-                          </form>
+
+                                  </form>
 
                   </div>
                 
