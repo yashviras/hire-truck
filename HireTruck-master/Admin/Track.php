@@ -20,9 +20,7 @@ require ('Nav.php');
                     </div>
                 </section>
 
-
-
-                <div class="container" style=" webkit-box-shadow: 1px 0px 17px 7px rgba(0,0,0,0.75);-moz-box-shadow: 1px 0px 17px 7px rgba(0,0,0,0.75);	box-shadow: 1px 0px 17px 7px rgba(0,0,0,0.75);">
+               <div class="container" style=" webkit-box-shadow: 1px 0px 17px 7px rgba(0,0,0,0.75);-moz-box-shadow: 1px 0px 17px 7px rgba(0,0,0,0.75);	box-shadow: 1px 0px 17px 7px rgba(0,0,0,0.75);">
 
                             <div class="container" style="padding-top:5%;"><br>
                               <h1 class="text-center"> Track Your Luggage: <h1>
@@ -36,16 +34,17 @@ require ('Nav.php');
                                           <p><b>T_id : </b></p> <p> <?php  print $re[2];?> </p>
                                           <p><b>Truck No. :</b> </p> <p><?php  print $re[4];?>  </p>
                                               <p><b>Current Location:</b> </p> <p> <?php  print $re[5];?>  </p>
-
-
                                     </div>
-                                    <div class="col-md-6">
+
+                                  <div class="col-md-6">
                                            <p><b>Source Of Lugguage : </b></p> <p> <?php  print $re[5];?>  </p>
                                             <p><b>Destination Of Lugguage :</b> </p> <p> <?php  print $re[5];?>  </p>
 
 
 
-                                    </div>
+                                  
+                                  </div>
+                                  
                                 </div>
                                 <br><br>
 
@@ -57,11 +56,11 @@ require ('Nav.php');
                   <?php  if($i==20)
                   {?>
                     <div class="progress">
-                      <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width:20%">
-                        20% Distance Covered
+                      <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:20%">
+                        40% Distance Covered
                       </div>
                   <?php
-                    } if($i==40)
+                    } if($i==50)
                 {?>
                     </div>
                     <div class="progress">
